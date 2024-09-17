@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>中秋快乐</title>
+  <title>Ngắm Trăng</title>
   <style>
     body {
       overflow: hidden;
@@ -342,20 +342,7 @@
             strokeColor: '#f9dc60'
           };
 
-          const getWriterList = () => {
-            let writerList = [];
-            writerList.push(HanziWriter.create('dan', '但', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('yuan', '愿', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('ren', '人', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('chang', '长', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('jiu', '久', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('qian', '千', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('li', '里', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('gong', '共', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('chan', '婵', WRITER_CONFIG));
-            writerList.push(HanziWriter.create('juan', '娟', WRITER_CONFIG));
-            return writerList;
-          }
+         
 
           const generateAnimateWriter = async (writerList) => {
             const writerCount = writerList.length;
